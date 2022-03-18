@@ -3,7 +3,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 @Pipe({
   name: 'categoryList'
 })
-export class CategoryListPipe implements PipeTransform {
+export class CategoryList implements PipeTransform {
   transform(mediaItems) {
     const categories = [];
     mediaItems.forEach(mediaItem => {
